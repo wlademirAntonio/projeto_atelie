@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Ateliê do Sabor</title>
+    <link rel="shortcut icon" href="../static/logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <nav class="header">
+        <div class="header-part">
+            <img src="../static/logo.jpeg" alt="Ateliê do Sabor">
+            <div></div>
+        </div>
+        <div class="header-part"></div>
+        <div class="header-part"></div>
+    </nav>  
+
+    <div class="main">
+        <div class="sections" style="justify-content: end;">
+            <div class="produtos" id="produtosCompra"></div>
+        </div>
+        <div class="sections" style="flex-direction: column;">
+            <div class="outros">
+                <div>
+                    <button id="limpar">Limpar carrinho</button>
+                    <button>Produtos</button>
+                    <button>Vendas</button>
+                    <input type="password" id="input" class="input" placeholder="Leitor" style="text-align: center;">
+                </div>
+                <div></div>
+            </div>
+            <div class="totais">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-cadastro" id="modalCadastro">
+        <div class="form-cadastro">
+            <div class="modal-header">
+                <h2 id="modal-titulo">Cadastrar produto</h2>
+                <button class="btn-sair" id="sairModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="cadatro-form">
+                    <div class="input-group">
+                        <input type="text" placeholder="Marca" name="marca" id="inputMarca" style="width: 49%;" required>
+                        <input type="text" placeholder="Código" name="cod" id="inputCod" style="width: 49%;" required disabled>
+                    </div>
+                    <input type="text" placeholder="Nome" name="nome" id="inputNome" required>
+                    <div class="input-group">
+                        <input type="text" placeholder="Preço" name="preco" id="inputPreco" style="width: 49%;" required>
+                        <input type="text" placeholder="Quantidade" name="quantidade" id="inputQuantidade" style="width: 49%;" required>
+                    </div>
+                    <button class="btn-modal" id="btnCadastrar" value="cadastrar" name="cadastrar">Cadastrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../static/jquery-3.6.0.js"></script>
+    <script src="../static/script.js"></script>
+</body>
+</html>

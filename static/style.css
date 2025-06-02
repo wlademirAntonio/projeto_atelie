@@ -1,0 +1,325 @@
+/* 
+
+#6a1d04 marrom claro
+#fcbea3 bege
+#f78a0d laranja
+#8dd1ce azul bebe
+#7a5746 marrom
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    width: 100vw;
+    height: 9em;
+    background-color: #8dd1ce;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+}
+
+.header img {
+    width: 8em;
+    border-radius: 4em;
+}
+
+.header-part {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.sections {
+    margin-top: 9em;
+    width: 100%;
+    display: flex;
+}
+
+.produtos {
+    display: flex;
+    width: 97%;
+    flex-direction: column;
+    margin-right: 0.5em;
+    background-color: #fafafa;
+    align-items: center;
+    border-radius: 2em 0 0 2em;
+    padding: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border: 1px solid #cfcdcd;
+    overflow: auto;
+}
+
+.produto {
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    height: 4em;
+    justify-content: space-between;
+    border-radius: 1em 0 1em 0;
+    margin-top: 0.33em;
+    border: 1px solid #cfcdcd;
+    padding: 0 1em 0 1em;
+    align-items: center;
+}
+
+.produto div {
+    padding: 0.5em;
+}
+
+.produto .cod {
+    width: 8em;
+}
+
+.produto .marca {
+    width: 6em;
+}
+
+.produto .nome {
+    width: 15em;
+}
+
+.produto .quant {
+    width: 3em;
+    text-align: center;
+}
+
+.produto .preco {
+    width: 5em;
+    text-align: center;
+}
+
+.produto .total-produto {
+    width: 6em;
+    text-align: center;
+}
+
+.btn-remover {
+    border: 0;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #b4b3b3;
+    height: 1em;
+    width: 1em;
+}
+
+.btn-remover:hover {
+    color: #8a8a8a;
+}
+
+.produtos .legenda {
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.produto .texto {
+    font-size: 0.9em;
+    margin-top: 0.2em;
+}
+
+.outros {
+    display: flex;
+    width: 98%;
+    height: 100%;
+    flex-direction: row;
+    margin-right: 0.5em;
+    background-color: #fafafa;
+    align-items: center;
+    border-radius: 0 2em 0 0;
+    padding: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
+    border: 1px solid #cfcdcd;
+    justify-content: space-evenly;
+}
+
+.totais {
+    display: flex;
+    width: 98%;
+    height: 100%;
+    flex-direction: column;
+    margin-right: 0.5em;
+    background-color: #fafafa;
+    align-items: center;
+    border-radius: 0 0 2em 0;
+    padding: 1em;
+    margin-top: 0.3em;
+    margin-bottom: 0.5em;
+    border: 1px solid #cfcdcd;
+}
+
+.input {
+    width: 15em;
+    height: 3em;
+    padding: 1em;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    caret-color: #fff;
+    outline-color: #ddd;
+}
+
+.outros div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.outros div button {
+    padding: 1em;
+    width: 15em;
+    border-radius: 1em;
+    background-color: #eeeeee;
+    font-size: 1em;
+    border: 1px solid #cfcdcd;
+    color: #575656;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-cadastro {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.form-cadastro {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-30px);
+    opacity: 0;
+    animation: desce 0.4s ease-out forwards;
+}
+
+@keyframes desce {
+  from {
+      opacity: 0;
+      transform: translateY(-30px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.modal-header h2 {
+  margin: 0;
+}
+
+.btn-sair {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.btn-sair:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modal-body input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.btn-modal {
+  background-color: #360f02;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1em;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.spam-cadastro {
+  position: absolute;
+  top: 0;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.spam-cadastro p {
+  background-color: #dfdfdf;
+  width: 75%;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  animation: sobe 2.5s ease-out forwards;
+}
+
+@keyframes sobe {
+  0% {
+      opacity: 0;
+      transform: translateY(0);
+  }
+  10% {
+      opacity: 1;
+      transform: translateY(-23px);
+  }
+  95% {
+      opacity: 1;
+      transform: translateY(-23px);
+  }
+  100% {
+      opacity: 0;
+      transform: translateY(0);
+  }
+}
