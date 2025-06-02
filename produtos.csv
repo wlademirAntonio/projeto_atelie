@@ -1,0 +1,232 @@
+ID,COD,MARCA,NOME,PRECO,QUANTIDADE
+1,7891000377130,Negresco,"Negresco Sabor Chocolate",3.9,1
+2,7891000376768,Negresco,"Negresco Tradicional",3.9,1
+3,7891000376805,Negresco,"Negresco Sabor Morango",3.9,1
+4,7898087310135,"Aqua Foresta","Água Aqua Foresta",2,1
+5,070847022305,Monster,"Monster Absolutely Zero",10,1
+6,7898938890076,Monster,"Monster Zero Sugar",10,1
+7,070847022206,Monster,"Monster Energy Ultra",10,1
+8,7898624411790,Mineralba,"Água Mineral Com Gás Mineralba",2.5,1
+9,7894900053630,Fanta,"Fanta Uva 600ml",6,1
+10,7894900031607,"Fanta ","Fanta Laranja 600ml",6,1
+11,070847033929,Monster,"Monster Ultra Violet",10,1
+12,7894900681017,Sprite,"Sprite Lata",5,1
+13,7894900010015,Coca-Cola,"Coca-Cola Lata",5,1
+14,7891991000826,"Guaraná Antarctica","Guaraná Antarctica Lata",5,1
+15,7894900030013,Fanta,"Fanta Laranja Lata",5,1
+16,7894900180503,Schweppes,"Schweppes Original Lata",5,1
+17,7894900050011,Fanta,"Fanta Uva Lata",5,1
+18,7894900508017,"Power Ade","Power Ade Frutas Tropicais",5,1
+19,7894900504002,"Power Ade ","Power Ade Mix De Frutas",5,1
+20,7894900521504,"Crystal Sabores","Água Com Gás Sabor Frutas Vermelhas",4,1
+21,7894900520507,"Crystal Sabores","Água Com Gás Sabor Limão ",4,1
+22,7894900556056,"Del Valle","Frut Sabor Laranja 450ml",4.5,1
+23,7894900550054,"Del Valle","Frut Sabor Uva 450ml",4.5,1
+24,7894900556032,"Del Valle","Frut Sabor Laranja 1L",6.5,1
+25,7894900550030,"Del Valle","Frut Sabor Uva 1L",6.5,1
+26,7898959386596,Push,"Push Original",7,1
+27,7898959386718,Push,"Push Melancia",7,1
+28,7898959386602,Push,"Push Ultra",7,1
+29,7898959386732,Push,"Push Maçã Verde",7,1
+30,7896828000017,"Kero Coco","Água De Coco 200ml",4,1
+31,7894321722016,Toddynho,"Toddynho Chocolate 200ml",4,1
+32,7894900660333,"Del Valle","Sabor Uva Lata",6.5,1
+33,7894900660265,"Del Valle","Sabor Goiaba Lata",6.5,1
+34,7894900660319,"Del Valle","Sabor Pêssego Lata",6.5,1
+35,9002490280901,RedBull,"The Pomelo Edition",11,1
+36,611269991000,RedBull,"RedBull Tradicional",11,1
+37,7898942053320,Furioso,"Furioso Original 250ml",5,1
+38,7898942055249,Furioso,"Furioso Melancia e Morango 250ml",5,1
+39,7898942055263,Furioso,"Furioso Maçã Verde 250ml",5,1
+40,7898942055232,Furioso,"Furioso Tropical 250ml",5,1
+41,7898938890113,Monster,"Monster Ultra Fiesta Mango",10,1
+42,1220000250031,Monster,"Monster Juice Pacific Punch",10,1
+43,7894900911602,Kuat,"Kuat 600ml",6,1
+44,7896263500424,Roller,"Roller 600ml",6,1
+45,7894900011609,Coca-Cola,"Coca-Cola 600ml",6.5,1
+46,78908901,Coca-Cola,"Coca-Cola 200ml",3,1
+47,7898942055928,Refriko,"Refriko Tubaína 200ml",2.5,1
+48,7898922529715,Conquista,"Conquista Guaraná 250ml",2.5,1
+49,7891149103492,Sukita,"Sukita Laranja 1,5L",9,1
+50,7894900681000,Sprite,"Sprite Limão 2L",10,1
+51,7892840800000,Pepsi,"Pepsi 2L",10,1
+52,7891991001342,"Guaraná Antarctica","Guaraná Antarctica 2L",10,1
+53,7894900027013,Coca-Cola,"Coca-Cola 2L",12,1
+54,7894900660418,"Del Valle","Sabor Laranja 200ml",3.5,1
+55,7894900660432,"Del Valle","Sabor Uva 200ml",3.5,1
+56,7894900660425,"Del Valle","Sabor Pêssego 200ml",3.5,1
+57,7894900583700,"Del Valle","Kapo Sabor Morango",3,1
+58,7894900593709,"Del Valle","Kapo Sabor Uva",3,1
+59,7894900650013,"Del Valle","Kapo Sabor Maçã",3,1
+60,78917620,Ducrem,"Ducrem Sabor Avelã",1,1
+61,7908228802020,Fini,"Chicle Salada De Frutas Azedinha",2,1
+62,7898967923011,DipLoko,"DipLoko Donuts",3,1
+63,7898934595500,DipLoko,"Booom Like Sabor Uva",3,1
+64,7898934595548,DipLoko,"Booom Like Sabor Framboesa",3,1
+65,7898934595463,DipLoko,"Booom Like Sabor Morango",3,1
+66,040141456595,"Doce Mix","Slime Neta",3.5,1
+67,630941689769,"Doce Mix","Choco Neta",3.5,1
+68,7896451907943,Minty,"Pastilha Sabor Cereja",1.5,1
+69,7896451906342,Minty,"Pastilha Sabor Hortelã",1.5,1
+70,7896451907172,Minty,"Pastilha Sabor Extra Forte",1.5,1
+71,7896451907189,Minty,"Pastilha Sabor Morango",1.5,1
+72,7896043360422,Criaturas,"Sabor Frutas Vermelhas",0.6,1
+73,7896043360170,Criaturas,"Sabor Frutas Tropicais",0.6,1
+74,7898970162742,DipLoko,"Monsters Chicle Framboesa",1,1
+75,7896043360378,Frulets,"Sabor Morango ",0.6,1
+76,7895800002933,Bubbaloo,"Sabor Uva",0.5,1
+77,7895800002957,Bubbaloo,"Sabor Morango",0.5,1
+78,7898970162728,DipLoko,"Monsters Chicle Morango",1,1
+79,7891151039697,Freegells,"Azedinho Sabor Morango",1.8,1
+80,7891151039710,Freegells,"Azedinho Sabor Uva",1.8,1
+81,7894900660401,"Del Valle","Sabor Manga Lata",6.5,1
+82,7894900660302,"Del Valle","Sabor Maracujá Lata",6.5,1
+83,7891118026210,Poosh,"Poosh Conect",2,1
+84,0,Salgado,Salgado,8.5,1
+85,7896481055546,Vovozinha,"Pipoca Vovozinha",1.3,1
+86,7898248630836,"Brasil Caipira","Bananinha Cristal",3,1
+87,7898248630843,"Brasil Caipira","Bananinha Zero",3,1
+88,7898248630850,"Brasil Caipira","Goiabada Cascão",3,1
+89,7891000247648,Nestle,"Cookies De Chocolate",4,1
+90,7891000339237,Nestle,"Cookies De Prestigio",4,1
+91,7891000247624,Nestle,"Cookies Negresco",4,1
+92,7622210568601,Lacta,"Lacta Te Adoro",15,1
+93,7891000325131,Nestle,"Caixa De Bombom Nestle",15,1
+94,7892840815745,"Elma Chips","Amendoim Japonês 45g",3.49,1
+95,7896336012250,"Santa Helena","Amendoim Salgado 24g",1.5,1
+96,7892840814748,"Elma Chips","Amendoim Sem Pele 100g",8.49,1
+97,7896336016111,"Santa Helena","Amendoim Japonês 24g",1.5,1
+98,7622210933454,Oreo,"Mini Oreo 35g",3.5,1
+99,7896262301022,Fruit-tella,Fruit-tella,3.5,1
+100,7895144603087,Mentos,"Yogurt Morango",3.5,1
+101,7896262304306,Mentos,"Mentos Mint",3.5,1
+102,7895144603063,Mentos,"Frutas Vermelhas",3.5,1
+103,7896262304351,Mentos,"Mentos Fruit",3.5,1
+104,7896286619974,Lílith,"Sabor Framboesa",1.5,1
+105,7896286619264,Lílith,"Sabor Maçã Verde",1.5,1
+106,7896286619233,Icekiss,"Azedinha Original",1.5,1
+107,7891151039574,Freegells,"Choc Maracujá Com Chocolate",2,1
+108,7891151039536,Freegells,"Choc Menta Com Chocolate",2,1
+109,7891151039536,Freegells,"Choc Menta Com Chocolate",2,1
+110,7891151039505,Freegells,"Choc Morango Com Chocolate",2,1
+111,7891151031202,Freegells,"Gum Extra Forte",2,1
+112,7891151031141,Freegells,"Gum De Menta",2,1
+113,7891151031189,Freegells,"Gum De Morango",2,1
+114,7895800201503,Trident,"Trident Morango",3,1
+115,7895800304211,Trident,"Trident Hortelã",3,1
+116,7895800430002,Trident,"Trident Tutti-Frutti",3,1
+117,7895144899947,Mentos,"Pure Fresh Fresh Mint",3,1
+118,7895144893730,Mentos,"Pure Fresh Strong Mint",3,1
+119,7895144892931,Mentos,"Pure Fresh Spearmint",3,1
+120,7895144899930,Mentos,"Pure Fruit Morango, Maçã Verde e Framboesa",3,1
+121,7622210564290,Trident,"Trident X Senses Intense",3,1
+122,7895800304228,Trident,"Trident Menta",3,1
+123,7895800309780,Trident,"Trident Melancia",3,1
+124,78922327,Mentos,"Pure Fresh 56g",15,1
+125,78938823,Halls,"Halls Mentol",2.5,1
+126,78938861,Halls,"Halls Uva Verde",2.5,1
+127,78938847,Halls,"Halls Morango",2.5,1
+128,78938854,Halls,"Halls Melancia",2.5,1
+129,78938878,Halls,"Halls Menta Prata",2.5,1
+130,78938816,Halls,"Halls Extra Forte",2.5,1
+131,78938830,Halls,"Halls Menta",2.5,1
+132,7891151039819,Freegells,"Freegells Morango Mentol",1.8,1
+133,7891151039796,Freegells,"Freegells Menta Mentol",1.8,1
+134,7891151039772,Freegells,"Freegells Extra Forte",1.8,1
+135,78912359,Garoto,"Baton Ao Leite",1.5,1
+136,78912366,Garoto,"Batom Branco",2.5,1
+137,78939318,Lacta,"Ouro Branco",2.5,1
+138,78939301,Lacta,"Sonho de Valsa",2.5,1
+139,78948150,Lacta,"Oreo Bombom",2.5,1
+140,7896058500875,Dori,"Gelatina Boca",1.5,1
+141,7896451912916,Docile,"Gelatines Banana 15g",1.5,1
+142,7896451912909,Docile,"Gelatines Amoras 15g",1.5,1
+143,7896058597370,Dori,"Tubo Recheado Yogurte 17g",1.5,1
+144,7898014702507,"Porco de Ouro","Pururuca Sabor Limão",3,1
+145,7896383073495,Jazam,"Tubitos Paçoca Rolha",1.5,1
+146,9000003004785,"Doces Moreno","Doce de Abóbora",2,1
+147,9000003004730,"Doces Moreno","Pé de Moleque Crocante",2,1
+148,7898960971156,Manamel,"Torrone com Amendoim",2,1
+149,7898953020243,"Doces Elis",Palito,2.5,1
+150,7896066761879,Bel,Moranguete,1,1
+151,7898756410555,"Delícias Famoso","Beijinho com Creme de Avelã",3.5,1
+152,7898537841189,"Ouro de Minas",Beijo,3.5,1
+153,7898537841608,"Ouro de Minas","Beijo de Moça",3.5,1
+154,7898756410524,"Delícias Famoso","Beijo de Moça",3.5,1
+155,7896058257656,Triunfo,"Tortini Chocolate",3.5,1
+156,7896058257182,Arcor,"Tortuguita Biscoito Chocolate",3.5,1
+157,7896058257724,Arcor,"Tortuguita Biscoito Chocolate Formato",3.5,1
+158,7896058257199,Arcor,"Tortuguita Biscoito Morango",3.5,1
+159,7896071024433,Toddy,"Biscoito Chocolate e Morango",3.5,1
+160,7891000376843,Nestle,"Bono Biscoito Chocolate",3.5,1
+161,7891000376928,Nestle,"Bono Biscoito Doce de Leite",3.5,1
+162,7891000376959,Nestle,"Bono Biscoito Morango",3.5,1
+163,7891000376881,Nestle,"Bono Biscoito Limão",3.5,1
+164,7891000241295,Nestle,"PassaTempo Morango",3.5,1
+165,7891000259351,Nestle,"PassaTempo Chocomix Morango",3.5,1
+166,7891000241370,Nestle,"Passatempo Leite",3.5,1
+167,7891000241356,Nestle,"PassaTempo Chocolate",3.5,1
+168,7892840823009,"Elma Chips","Ruffles Churraco 32g",3.99,1
+169,7892840824051,"Elma Chips","Cheetos Parmesão 40g",3.99,1
+170,7892840823450,"Elma Chips","Baconzitos 34g",3.99,1
+171,7892840822767,"Elma Chips","Lay's Sour Cream 35g",4.99,1
+172,7892840822255,"Elma Chips","Cebolitos 36g",3.99,1
+173,7892840824044,"Elma Chips","Cheetos Requeijão 45g",3.99,1
+174,7892840822996,"Elma Chips","Ruffles Original 32g",3.99,1
+175,7892840821166,"Elma Chips","Fandangos Presunto 37g",2.99,1
+176,7892840824075,"Elma Chips","Cheetos Queijo Suíço 37g",3.99,1
+177,7892840822583,"Elma Chips","Stiksy 76g",4.99,1
+178,7892840823078,"Elma Chips","Pingo d'Ouro 76g",4.99,1
+179,7894900680508,Sprite,"Sprite Lemon Fresh 510ml",4,1
+180,78929340,Neugebauer,"Stikadinho Morago",1.5,1
+181,7891000417027,Nestle,"KitKat Coconut",3.9,1
+182,7891000412046,Nestle,"KitKat Triple Chocolate",3.9,1
+183,7891000248829,Nestle,"KitKat Dark",3.9,1
+184,7891000417225,Nestle,"KitKat Salted Caramel Cheesecake",3.9,1
+185,7891000248768,Nestle,KitKat,3.9,1
+186,7896423481853,Snickers,"Snickers Dark",3.5,1
+187,7891000464908,Nestle,"Charge 40g",3.9,1
+188,7891000249239,Nestle,"KitKat White",3.9,1
+189,7896306625251,Trento,"Trento Branco-Dark",3.5,1
+190,7896306625190,Trento,"Trento Avelãs",3.5,1
+191,7896306625299,Trento,"Trento Duo",3.5,1
+192,7896306625237,Trento,"Trento Chocolate",3.5,1
+193,7896306625374,Trento,"Trento Torta de Limão",3.5,1
+194,7622300988470,Lacta,"Bis Xtra Original",3.9,1
+195,7622210566409,Lacta,"Bis Xtra Black",3.9,1
+196,7622210534576,Lacta,"Bis Xtra Branco",3.9,1
+197,7622300988517,Lacta,"Bis Xtra Oreo",3.9,1
+198,7896423470994,Twix,Twix,3.9,1
+199,7899970400674,Hershey's,"Wafer Hershey's ao Leite",5.5,1
+200,7899970403514,Hershey's,"Wafer Hershey's Pipoca",5.5,1
+201,7899970400681,Hershey's,"Wafer Hershey's Cookies 'N' Creme",5.5,1
+202,7899970400704,Hershey's,"Wafer Hershey's Triplo Chocolate",5.5,1
+203,7891000460207,Nestle,Prestigio,3.9,1
+204,7891000401095,Nestle,"Prestigio Doce de Leite",3.9,1
+205,7899970402456,Ioiô,"Ioiô Mix Duo",4.5,1
+206,7891340303332,Look,"Look Morango",3.9,1
+207,835281000414,Look,"Look Morango",3.9,1
+208,7891340303233,Look,"Look Chocolate",3.9,1
+209,835281000599,Look,"Look Atrevidos",3.9,1
+210,835281000582,Look,"Look Floresta Negra",3.9,1
+211,7896004007045,Cheez-It,"Cheez-It Original Parmesão 65g",3.8,1
+212,7896004010106,Cheez-It,"Cheez-It Snap'd Power Queijo 45g",4,1
+213,7896004010090,Cheez-It,"Cheez-It Snap'd Nacho Explosion 45g",4,1
+214,7896004007021,Cheez-It,"Cheez-It Original Cheedar 65g",3.8,1
+215,7896451911575,Docile,"Docigoma Gurt",1.5,1
+216,7896451911582,Docile,Docigoma,1.5,1
+217,7891962076669,Bauducco,"Cookies Fini Tubes",4.9,1
+218,7891962076676,Bauducco,"Cookies Fini Dentaduras",4.9,1
+219,7891962054124,Bauducco,"Cookies Maxi Chocolate",4.9,1
+220,7896004010076,Pringles,"Pringles Original 35g",6.5,1
+221,9557062361187,"Mister Potato","Mister Potato Original",14,1
+222,9557062361224,"Mister Potato","Mister Potato Cheese",14,1
+223,9557062361491,"Mister Potato","Mister Potato Pizza",14,1
+224,9557062361194,"Mister Potato","Mister Potato Sour Cream & Onion",14,1
+225,7892840817435,"Elma Chips","Ruffles Original 134g",14,1
+226,7892840817442,"Elma Chips","Ruffles Cheddar 134g",14,1
+227,7896004006239,Pringles,"Pringles Creme e Cebola 109g",14,1
+228,7896004010465,Pringles,"Pringles Lemon Pepper 105g",14,1
+229,7896004010632,Pringles,"Pringles Pizza Portuguesa 105g",14,1
+230,7896004010618,Pringles,"Pringles Pizza Calabresa 105g",14,1
+231,7896004006277,Pringles,"Pringles Original 104g",14,1

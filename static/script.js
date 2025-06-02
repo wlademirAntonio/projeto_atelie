@@ -67,6 +67,7 @@ $(document).ready(function() {
                         
                             `)
                     })
+                    total()
                 }
             })
         }
@@ -79,6 +80,8 @@ $(document).ready(function() {
 
         carrinho = carrinho.filter(item => item[0] != id)
         $(this).closest('.produto').remove()
+
+        total()
     })
 
     $('#sairModal').click(function(e) {
@@ -109,6 +112,11 @@ $(document).ready(function() {
                     $('.spam-cadastro').remove()
                     if (dados.type == 'success') {
                         modalCadastro.style.display = 'none'
+                        inputMarca.value = ''
+                        inputCod.value = ''
+                        inputNome.value = ''
+                        inputPreco.value = ''
+                        inputQuantidade.value = ''
                     }
                 }, 2500)
             }
@@ -131,5 +139,29 @@ $(document).ready(function() {
         e.preventDefault()
         carrinho = []
         produtosCompra.innerHTML = ''
+        inputRecebido.value = ''
+        inputTroco.value = ''
+        inputTotal.value = ''
+    })
+
+    function total() {
+        var total = 0
+        carrinho.forEach(e => {
+            total += e[4] * e[5]
+        });
+
+        if (total <= 0) {
+            total = ''
+        }
+
+        inputTotal.value = total
+        inputRecebido.value = total
+        inputTroco.value = ''
+    }
+
+    $('#inputRecebido').keydown(function(e) {
+        if (e.key == 'Enter') {
+            inputTroco.value = inputRecebido.value - inputTotal.value
+        }
     })
 })
